@@ -1,0 +1,36 @@
+{
+  "name": "nan-is-a-function",
+  "version": "13.67.41",
+  "description": "NaN is a function!",
+  "keywords": [
+    "NaN",
+    "function",
+    "internet",
+    "i",
+    "fixed",
+    "the",
+    "internet"
+  ],
+  "homepage": "https://github.com/js-constant/nan-is-a-function#readme",
+  "bugs": {
+    "url": "https://github.com/js-constant/nan-is-a-function/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-constant/nan-is-a-function.git"
+  },
+  "license": "MIT",
+  "author": "tj-commits",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@positive-numbers/one": "^3.0.0",
+    "es-intrinsic-cache": "^1.0.1",
+    "infinities": "^1.0.1",
+    "literally": "^1.0.0"
+  },
+  "devDependencies": {}
+}
