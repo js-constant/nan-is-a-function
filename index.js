@@ -1,9 +1,8 @@
 const GetIntrinsic = require('es-intrinsic-cache')
-const PosInf = require('infinities').positiveInfinity()
 const one = require('@positive-numbers/one')
 const literally = require('literally')
-const random = GetIntrinsic("%Math.random%")
-const pow = GetIntrinsic("%Math.pow%")
-const NOT_A_NUMBER = pow(random() + one, PosInf)
+const countingup = require("countingup")
+const log = GetIntrinsic("%Math.log%")
+const NOT_A_NUMBER = log(countingup.convert.toNegative(one))
 
 module.exports = literally(NOT_A_NUMBER)

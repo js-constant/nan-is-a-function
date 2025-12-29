@@ -1,6 +1,6 @@
 {
   "name": "nan-is-a-function",
-  "version": "13.67.41",
+  "version": "67.67.67",
   "description": "NaN is a function!",
   "keywords": [
     "NaN",
@@ -28,9 +28,8 @@
   },
   "dependencies": {
     "@positive-numbers/one": "^3.0.0",
+    "countingup": "^0.0.1",
     "es-intrinsic-cache": "^1.0.1",
-    "infinities": "^1.0.1",
     "literally": "^1.0.0"
-  },
-  "devDependencies": {}
+  }
 }
